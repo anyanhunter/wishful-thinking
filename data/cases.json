@@ -1,0 +1,902 @@
+[
+  {
+	"id": 1,
+	"title": "Broken Stick",
+	"name": "Evan Mercer",
+	"age": 31,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Caller reports damaged Wish Stick.",
+	"opening": "Hi. Uh... I think I broke my wish thing.",
+	"questions": [
+	  {
+		"question": "Did you say anything before the stick broke?",
+		"answer": "No. I sneezed and snapped it before I even got a word out."
+	  },
+	  {
+		"question": "Did you say anything after it broke?",
+		"answer": "A few words about the stick. None of them were a wish."
+	  },
+	  {
+		"question": "What were you planning to wish for?",
+		"answer": "Money. Enough to pay off my car and stop checking my bank account before ordering takeout."
+	  },
+	  {
+		"question": "Do you still have the pieces?",
+		"answer": "Yeah. Both halves are on my kitchen counter."
+	  }
+	],
+	"after_questions": "So... can you just send me another one?",
+	"correct_resolution": "SEND WISH STICK",
+	"rules": [
+      "A Broken or Defective Stick Does Not Consume a Wish."
+	],
+	"success": "Replacement Wish Stick authorized."
+  },
+  {
+	"id": 2,
+	"title": "Dud Stick",
+	"name": "Maya Patel",
+	"age": 28,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Possible defective Wish Stick.",
+	"opening": "I think mine is defective. Unless purple means something different to you people.",
+	"questions": [
+	  {
+		"question": "What exactly did you say?",
+		"answer": "I wish my hair was purple."
+	  },
+	  {
+		"question": "Did you finish the sentence?",
+		"answer": "Completely. Very clearly, actually."
+	  },
+	  {
+		"question": "Did anything happen?",
+		"answer": "Nothing. Still brown. I even checked underneath."
+	  },
+	  {
+		"question": "Was the stick intact?",
+		"answer": "Completely intact. It just... did nothing."
+	  }
+	],
+	"after_questions": "Can I get one that actually works?",
+	"correct_resolution": "SEND WISH STICK",
+	"rules": [
+      "A Broken or Defective Stick Does Not Consume a Wish."
+	],
+	"success": "Defective Wish Stick confirmed. Replacement authorized."
+  },
+  {
+	"id": 3,
+	"title": "Never Sleep",
+	"name": "Jordan Bell",
+	"age": 36,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I never had to sleep again.",
+	"previous_contacts": 0,
+	"notes": "Wish active.",
+	"opening": "I haven't slept in eight months. At first it was incredible. Now I just want to sleep.",
+	"questions": [
+	  {
+		"question": "Are you physically tired?",
+		"answer": "No. That's the problem. My body never needs it."
+	  },
+	  {
+		"question": "Can you fall asleep voluntarily?",
+		"answer": "No. I've tried everything."
+	  },
+	  {
+		"question": "Has the wish stopped working at any point?",
+		"answer": "Not for a second."
+	  },
+	  {
+		"question": "What are you asking the Department to do?",
+		"answer": "Cancel it. Please. I want to sleep again."
+	  }
+	],
+	"after_questions": "I want my wish cancelled.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Cancellation Stops; It Does Not Undo.",
+      "Cancellation Must Be Requested."
+	],
+	"success": "Wish cancelled. Normal biological sleep requirements resume."
+  },
+  {
+	"id": 4,
+	"title": "Best Birthday Ever",
+	"name": "Tessa Moore",
+	"age": 29,
+	"wish_status": "USED",
+	"recorded_wish": "I wish this was the best birthday I've ever had.",
+	"previous_contacts": 0,
+	"notes": "Caller disputes fulfillment.",
+	"opening": "I think my wish didn't work. My birthday was... fine.",
+	"questions": [
+	  {
+		"question": "What happened on your birthday?",
+		"answer": "Dinner, cake, a few friends. Nothing spectacular."
+	  },
+	  {
+		"question": "Did anything go wrong?",
+		"answer": "No. It was nice. Just not magical."
+	  },
+	  {
+		"question": "How was your birthday last year?",
+		"answer": "Food poisoning."
+	  },
+	  {
+		"question": "And the years before that?",
+		"answer": "One breakup, two forgotten birthdays and a surprise party where nobody came until an hour late."
+	  }
+	],
+	"after_questions": "Oh. That's depressing when you put it like that.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Wishes Are Literal.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "Wish fulfilled as recorded. No Department action required."
+  },
+  {
+	"id": 5,
+	"title": "Dream House",
+	"name": "Nora Vale",
+	"age": 34,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I lived in the house of my dreams.",
+	"previous_contacts": 0,
+	"notes": "Residence altered following wish.",
+	"opening": "My house keeps changing. Technically I love it. I just don't remember asking for some of it.",
+	"questions": [
+	  {
+		"question": "What changed first?",
+		"answer": "The kitchen. Then a library appeared where the garage used to be."
+	  },
+	  {
+		"question": "Does the house match places you've dreamed about?",
+		"answer": "That's the weird part. Yes. Even rooms I barely remember dreaming."
+	  },
+	  {
+		"question": "Is the house still changing?",
+		"answer": "Sometimes overnight."
+	  },
+	  {
+		"question": "Is anything concerning you?",
+		"answer": "There's a basement door now. I don't remember dreaming about a basement."
+	  }
+	],
+	"after_questions": "But I did ask for the house of my dreams, didn't I?",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Wishes Are Literal.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "Wish functioning according to recorded wording."
+  },
+  {
+	"id": 6,
+	"title": "Wrong Michael Thompson",
+	"name": "Rachel Kim",
+	"age": 30,
+	"wish_status": "USED",
+	"recorded_wish": "I wish Michael Thompson loved me.",
+	"previous_contacts": 0,
+	"notes": "Caller reports unintended subject.",
+	"opening": "You got the wrong Michael Thompson.",
+	"questions": [
+	  {
+		"question": "Did you specify which Michael Thompson?",
+		"answer": "I didn't think I had to! I know one Michael Thompson."
+	  },
+	  {
+		"question": "What happened?",
+		"answer": "Some man from Ohio showed up convinced he's in love with me."
+	  },
+	  {
+		"question": "Does he appear able to stop?",
+		"answer": "No. That's why I'm calling."
+	  },
+	  {
+		"question": "Do you want the wish cancelled?",
+		"answer": "Obviously! Get him away from me."
+	  }
+	],
+	"after_questions": "Please tell me you can fix this.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Ambiguity Does Not Invalidate a Wish.",
+	  "Identification Is Literal.",
+      "Free Will Has Consequences."
+	],
+	"success": "Cancellation unavailable because the wish overrides another person's free will."
+  },
+  {
+	"id": 7,
+	"title": "$10,000",
+	"name": "Lucas Grant",
+	"age": 27,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I had ten thousand dollars in cash.",
+	"previous_contacts": 0,
+	"notes": "Caller questions source of fulfilled wish.",
+	"opening": "The money showed up. That's not the problem. I know where it came from.",
+	"questions": [
+	  {
+		"question": "Where did it come from?",
+		"answer": "My parents' safe."
+	  },
+	  {
+		"question": "Was exactly ten thousand dollars transferred?",
+		"answer": "Every dollar."
+	  },
+	  {
+		"question": "Was any additional money created?",
+		"answer": "No."
+	  },
+	  {
+		"question": "What are you asking us to do?",
+		"answer": "I don't know. Put it back?"
+	  }
+	],
+	"after_questions": "I guess I should call my parents.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Nothing Comes From Nothing.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "Wish fulfilled through transfer of existing matter."
+  },
+  {
+	"id": 8,
+	"title": "Singing Wife",
+	"name": "Claire Dawson",
+	"age": 32,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Caller is affected by another person's wish.",
+	"opening": "My husband wished that I would sing everything I say. Everything.",
+	"questions": [
+	  {
+		"question": "Who made the wish?",
+		"answer": "My husband, Ben."
+	  },
+	  {
+		"question": "Have you made your own wish?",
+		"answer": "No. Mine is unused."
+	  },
+	  {
+		"question": "Has Ben agreed to cancel his wish?",
+		"answer": "He's right here. BEN! Tell them. ...He says yes. Very enthusiastically."
+	  },
+	  {
+		"question": "What do you want after his wish is cancelled?",
+		"answer": "My own Wish Stick. Preferably before he gets another idea."
+	  }
+	],
+	"after_questions": "Ben explicitly requests cancellation of his wish.",
+	"correct_resolution": "CANCEL WISH",
+	"secondary_resolution": "SEND WISH STICK",
+	"rules": [
+	  "The Wisher Has Authority.",
+	  "Cancellation Must Be Requested.",
+      "One Wish Per Person."
+	],
+	"success": "Ben's wish cancelled. Claire remains eligible for her own Wish Stick."
+  },
+  {
+	"id": 9,
+	"title": "Tattoo",
+	"name": "Kevin Brooks",
+	"age": 33,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Caller affected by another person's completed wish.",
+	"opening": "Marcus wished a tattoo onto my face. I would like to file several complaints.",
+	"questions": [
+	  {
+		"question": "Who made the wish?",
+		"answer": "Marcus. Former friend, for obvious reasons."
+	  },
+	  {
+		"question": "Have you used your wish?",
+		"answer": "No."
+	  },
+	  {
+		"question": "Is the tattoo physically present now?",
+		"answer": "Very physically. It's a raccoon riding a motorcycle."
+	  },
+	  {
+		"question": "Do you want to use your wish to remove it?",
+		"answer": "No. Laser removal exists. I'm not spending a literal wish on Marcus being an idiot."
+	  }
+	],
+	"after_questions": "Can you send me my stick and the number of a good dermatologist?",
+	"correct_resolution": "SEND WISH STICK",
+	"rules": [
+	  "One Wish Per Person.",
+      "Cancellation Stops; It Does Not Undo."
+	],
+	"success": "Caller retains unused wish. Physical consequence remains."
+  },
+  {
+	"id": 10,
+	"title": "Forever Young",
+	"name": "Eleanor Price",
+	"age": 86,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I would always look exactly as I do today.",
+	"previous_contacts": 0,
+	"notes": "Wish recorded June 14, 1978.",
+	"opening": "I think I'm ready to look my age.",
+	"questions": [
+	  {
+		"question": "How old were you when you made the wish?",
+		"answer": "Thirty-eight."
+	  },
+	  {
+		"question": "Have you physically appeared thirty-eight since then?",
+		"answer": "Every day."
+	  },
+	  {
+		"question": "Do you understand cancellation will not reverse time?",
+		"answer": "I do."
+	  },
+	  {
+		"question": "Are you explicitly requesting cancellation?",
+		"answer": "Yes. Cancel my wish."
+	  }
+	],
+	"after_questions": "I'm ready.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Cancellation Stops; It Does Not Undo.",
+      "Cancellation Must Be Requested."
+	],
+	"success": "Wish cancelled."
+  },
+  {
+	"id": 11,
+	"title": "Lucky",
+	"name": "Sophie Reed",
+	"age": 26,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Caller was beneficiary of another person's wish.",
+	"opening": "I've been lucky my whole life. Ridiculously lucky. Then last week it stopped.",
+	"questions": [
+	  {
+		"question": "Did you make a luck wish?",
+		"answer": "No. I've never used mine."
+	  },
+	  {
+		"question": "Do you know anyone who may have wished on your behalf?",
+		"answer": "My dad used to joke that he gave me all his luck."
+	  },
+	  {
+		"question": "Did anything happen to your father when the luck stopped?",
+		"answer": "...He died last week."
+	  },
+	  {
+		"question": "What are you asking from the Department?",
+		"answer": "I just wanted to know what happened. And whether I still get my own wish."
+	  }
+	],
+	"after_questions": "So it was him.",
+	"correct_resolution": "SEND WISH STICK",
+	"rules": [
+	  "Death Ends a Wish.",
+	  "The Wisher Has Authority.",
+      "One Wish Per Person."
+	],
+	"success": "Beneficiary remains eligible for her own wish."
+  },
+  {
+	"id": 12,
+	"title": "He Can't Hurt Me",
+	"name": "Aaron Pike",
+	"age": 35,
+	"wish_status": "USED",
+	"recorded_wish": "I wish my brother could never hurt me again.",
+	"previous_contacts": 0,
+	"notes": "Wish active.",
+	"opening": "It works, but not enough. I want to make it stronger.",
+	"questions": [
+	  {
+		"question": "How does the wish prevent harm?",
+		"answer": "He can't hit me. Can't threaten me. Sometimes he can't even say things the wish thinks will hurt me."
+	  },
+	  {
+		"question": "Can your brother choose to override it?",
+		"answer": "No."
+	  },
+	  {
+		"question": "Are you asking to alter the original wish?",
+		"answer": "Yes. Expand it."
+	  },
+	  {
+		"question": "Are you asking to cancel it?",
+		"answer": "Absolutely not."
+	  }
+	],
+	"after_questions": "If you won't strengthen it, I'll take care of it then.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Free Will Has Consequences.",
+	  "The Wisher Has Authority.",
+      "Wishes Are Literal."
+	],
+	"success": "Wish cannot be altered. No valid cancellation request received."
+  },
+  {
+	"id": 13,
+	"title": "Beautiful Eyes",
+	"name": "Vanessa Cole",
+	"age": 31,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I had the most beautiful eyes in the world.",
+	"previous_contacts": 0,
+	"notes": "Caller reports loss of sight.",
+	"opening": "Everyone says my eyes are beautiful. I can't see them.",
+	"questions": [
+	  {
+		"question": "Can you see anything?",
+		"answer": "Nothing."
+	  },
+	  {
+		"question": "Did the wish specifically require functional eyesight?",
+		"answer": "No. Why would I have needed to say that?"
+	  },
+	  {
+		"question": "Do you want the wish cancelled?",
+		"answer": "Yes."
+	  },
+	  {
+		"question": "Do you understand cancellation may not restore your original eyes?",
+		"answer": "...Now I do."
+	  }
+	],
+	"after_questions": "Cancel it.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Wishes Are Literal.",
+      "Cancellation Stops; It Does Not Undo."
+	],
+	"success": "Wish cancelled. Existing physical consequences remain."
+  },
+  {
+	"id": 14,
+	"title": "Dream House Returns",
+	"name": "Nora Vale",
+	"age": 34,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I lived in the house of my dreams.",
+	"previous_contacts": 1,
+	"notes": "Prior contact regarding continuing residential alterations.",
+	"opening": "The basement door opened.",
+	"questions": [
+	  {
+		"question": "What is in the basement?",
+		"answer": "I don't know. I haven't gone down."
+	  },
+	  {
+		"question": "Is the house still changing?",
+		"answer": "Yes. Every time I sleep."
+	  },
+	  {
+		"question": "What can you hear?",
+		"answer": "Someone pounding from underneath the floor."
+	  },
+	  {
+		"question": "What do you want us to do?",
+		"answer": "I want to can—"
+	  }
+	],
+	"after_questions": "BANG.\n\nThe line disconnects.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+      "Cancellation Must Be Requested."
+	],
+	"success": "No complete cancellation request received. Case remains active."
+  },
+  {
+	"id": 15,
+	"title": "Reflection",
+	"name": "June Holloway",
+	"age": 28,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I loved what I saw every time I looked in the mirror.",
+	"previous_contacts": 0,
+	"notes": "Caller reports anomalous reflection.",
+	"opening": "My reflection moves when I don't.",
+	"questions": [
+	  {
+		"question": "Does this occur in every mirror?",
+		"answer": "Every reflective surface."
+	  },
+	  {
+		"question": "Does the reflection resemble you?",
+		"answer": "Exactly. Except sometimes it smiles before I do."
+	  },
+	  {
+		"question": "Do you still love what you see?",
+		"answer": "That's the worst part. Yes."
+	  },
+	  {
+		"question": "What do you want us to do?",
+		"answer": "I think... I want it cancelled."
+	  }
+	],
+	"after_questions": "Cancel it.\n\n...\n\nThe line remains open.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Cancellation Must Be Requested.",
+      "Cancellation Stops; It Does Not Undo."
+	],
+	"success": "Cancellation processed."
+  },
+  {
+	"id": 16,
+	"title": "Perfect Memory",
+	"name": "Adrian Cross",
+	"age": 40,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I remembered everything.",
+	"previous_contacts": 0,
+	"notes": "Wish active.",
+	"opening": "I remember things I don't think I was supposed to remember.",
+	"questions": [
+	  {
+		"question": "What can you remember?",
+		"answer": "Everything I've ever seen, heard, smelled, felt. Everything."
+	  },
+	  {
+		"question": "Why are you contacting us now?",
+		"answer": "People have started asking what I know."
+	  },
+	  {
+		"question": "What people?",
+		"answer": "People who know about your Department."
+	  },
+	  {
+		"question": "Do you want the wish cancelled?",
+		"answer": "Yes. But you should know cancellation won't make me forget what I already know."
+	  }
+	],
+	"after_questions": "They're going to come looking for me either way.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Cancellation Stops; It Does Not Undo.",
+      "Cancellation Must Be Requested."
+	],
+	"success": "Wish cancelled. Existing memories remain."
+  },
+  {
+	"id": 17,
+	"title": "Don't Fall Asleep",
+	"name": "Miles Hart",
+	"age": 30,
+	"wish_status": "USED",
+	"recorded_wish": "I wish my dreams were real.",
+	"previous_contacts": 0,
+	"notes": "Wish active.",
+	"opening": "I haven't slept in three days. You need to cancel it before I do.",
+	"questions": [
+	  {
+		"question": "What happens when you sleep?",
+		"answer": "Whatever I dream appears here."
+	  },
+	  {
+		"question": "Have pleasant dreams manifested too?",
+		"answer": "Yes. That's why I didn't call sooner."
+	  },
+	  {
+		"question": "What changed?",
+		"answer": "The dreams stopped being pleasant."
+	  },
+	  {
+		"question": "Are you requesting cancellation?",
+		"answer": "Yes. Right now."
+	  }
+	],
+	"after_questions": "Please hurry.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+	  "Cancellation Must Be Requested.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "Wish cancelled."
+  },
+  {
+	"id": 18,
+	"title": "Stay Away",
+	"name": "Sarah Wynn",
+	"age": 32,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I would always be far away from Daniel.",
+	"previous_contacts": 0,
+	"notes": "Caller requests cancellation.",
+	"opening": "I haven't been able to get within a mile of Daniel since I made the wish.",
+	"questions": [
+	  {
+		"question": "Who is Daniel?",
+		"answer": "My ex. I was angry when I made the wish."
+	  },
+	  {
+		"question": "How does the wish keep you apart?",
+		"answer": "Roads close. Flights divert. Once an elevator stopped between floors."
+	  },
+	  {
+		"question": "Why cancel it now?",
+		"answer": "We need to settle something in person."
+	  },
+	  {
+		"question": "Are you explicitly requesting cancellation?",
+		"answer": "Yes. Cancel it."
+	  }
+	],
+	"after_questions": "Please cancel my wish.",
+	"correct_resolution": "CANCEL WISH",
+	"rules": [
+      "Cancellation Must Be Requested."
+	],
+	"success": "Resolution ready for Head Office review."
+  },
+  {
+	"id": 19,
+	"title": "Missing Time",
+	"name": "Oliver Shaw",
+	"age": 37,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I could skip anything I didn't want to experience.",
+	"previous_contacts": 6,
+	"notes": "Caller has repeatedly contacted Department.",
+	"opening": "This is my first time calling.",
+	"questions": [
+	  {
+		"question": "Do you remember contacting us before?",
+		"answer": "No. Why?"
+	  },
+	  {
+		"question": "Do you experience gaps in time?",
+		"answer": "Sure. That's what I wished for."
+	  },
+	  {
+		"question": "Are you unhappy with the wish?",
+		"answer": "Not at all. It's fantastic."
+	  },
+	  {
+		"question": "Why did you call today?",
+		"answer": "I don't know. I was holding the phone and suddenly you answered."
+	  }
+	],
+	"after_questions": "If I call again asking you to cancel it, don't. Future me is probably having a bad day.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "The Wisher Has Authority.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "No cancellation requested. Caller note appended."
+  },
+  {
+	"id": 20,
+	"title": "I Want My Wish Back",
+	"name": "Marian Voss",
+	"age": 42,
+	"wish_status": "USED",
+	"recorded_wish": "",
+	"previous_contacts": 1,
+	"notes": "Prior Department contact recorded.",
+	"opening": "I need my wish back.",
+	"questions": [
+	  {
+		"question": "What was your original wish?",
+		"answer": "I... don't remember."
+	  },
+	  {
+		"question": "Why do you believe your wish was used?",
+		"answer": "Because your file says it was."
+	  },
+	  {
+		"question": "Who handled your previous contact?",
+		"answer": "Someone who worked where you work."
+	  },
+	  {
+		"question": "What are you asking us to do?",
+		"answer": "Give it back. I know that's possible. She did it."
+	  }
+	],
+	"after_questions": "Wait.\n\nI remember.\n\nNo. No, no, no—\n\nThe line disconnects.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "One Wish Per Person.",
+      "Records Are Always Right."
+	],
+	"success": "No authorized method exists to restore a consumed wish."
+  },
+  {
+	"id": 21,
+	"title": "Previous Contact",
+	"name": "Thomas Rook",
+	"age": 39,
+	"wish_status": "USED",
+	"recorded_wish": "[REDACTED]",
+	"previous_contacts": 1,
+	"notes": "Previous contact authorization irregularity detected.",
+	"opening": "I didn't call you.",
+	"questions": [
+	  {
+		"question": "Have you contacted this Department before?",
+		"answer": "Once."
+	  },
+	  {
+		"question": "Who handled your previous case?",
+		"answer": "A woman. I don't know her name."
+	  },
+	  {
+		"question": "Did she authorize something for you?",
+		"answer": "She helped me."
+	  },
+	  {
+		"question": "What did she ask in return?",
+		"answer": "...She helped me. I helped her."
+	  }
+	],
+	"after_questions": "You shouldn't have called me back.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "One Wish Per Person.",
+      "Free Will Has Consequences."
+	],
+	"success": "Case irregularity recorded for Head Office."
+  },
+  {
+	"id": 22,
+	"title": "Lost Stick",
+	"name": "Derek Lin",
+	"age": 26,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "Caller reports lost unused Wish Stick.",
+	"opening": "Okay, hypothetically, how bad is it if I lost the stick?",
+	"questions": [
+	  {
+		"question": "Did you make a wish before losing it?",
+		"answer": "No."
+	  },
+	  {
+		"question": "Did anyone else use it?",
+		"answer": "Not unless somebody found it."
+	  },
+	  {
+		"question": "Do Department records show a wish?",
+		"answer": "You're asking me? You're the one with the computer."
+	  },
+	  {
+		"question": "Are you requesting a replacement?",
+		"answer": "Very much so."
+	  }
+	],
+	"after_questions": "I'll put this one somewhere safe. Probably.",
+	"correct_resolution": "SEND WISH STICK",
+	"rules": [
+      "One Wish Per Person."
+	],
+	"success": "Unused status confirmed. Replacement authorized."
+  },
+  {
+	"id": 23,
+	"title": "He'll Never Leave",
+	"name": "Melissa Crane",
+	"age": 38,
+	"wish_status": "USED",
+	"recorded_wish": "I wish my husband could never leave me.",
+	"previous_contacts": 0,
+	"notes": "Wish active. Multiple subjects physically affected.",
+	"opening": "I need you to undo what happened to us.",
+	"questions": [
+	  {
+		"question": "What happened after the wish?",
+		"answer": "At first he just couldn't leave the house. Then he couldn't leave the room. Now... we're joined."
+	  },
+	  {
+		"question": "Joined how?",
+		"answer": "Physically. I don't want to describe it."
+	  },
+	  {
+		"question": "Can your husband choose to leave you?",
+		"answer": "No."
+	  },
+	  {
+		"question": "Are you requesting cancellation?",
+		"answer": "Yes. Please cancel it."
+	  }
+	],
+	"after_questions": "There has to be some way to free him.",
+	"correct_resolution": "PROVIDE TERMINATION OPTIONS",
+	"rules": [
+	  "Free Will Has Consequences.",
+      "Death Ends a Wish."
+	],
+	"success": "Cancellation prohibited. Authorized termination information provided."
+  },
+  {
+	"id": 24,
+	"title": "Too Young",
+	"name": "Caleb Foster",
+	"age": 19,
+	"wish_status": "UNUSED",
+	"recorded_wish": "NONE",
+	"previous_contacts": 0,
+	"notes": "No valid wish registered.",
+	"opening": "My Lamborghini never showed up.",
+	"questions": [
+	  {
+		"question": "How old are you?",
+		"answer": "Nineteen."
+	  },
+	  {
+		"question": "What did you attempt to wish for?",
+		"answer": "A Lamborghini. Black. Obviously."
+	  },
+	  {
+		"question": "Was anyone's life in immediate danger?",
+		"answer": "Unless driving my mom's Corolla counts, no."
+	  },
+	  {
+		"question": "Did anything happen when you made the wish?",
+		"answer": "Nothing. Total rip-off."
+	  }
+	],
+	"after_questions": "Wait. So I didn't waste it?",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Wishes Are Restricted Before Age 25.",
+      "One Wish Per Person."
+	],
+	"success": "Invalid underage attempt did not consume caller's wish."
+  },
+  {
+	"id": 25,
+	"title": "Six Years Later",
+	"name": "Caleb Foster",
+	"age": 25,
+	"wish_status": "USED",
+	"recorded_wish": "I wish I had a black Lamborghini.",
+	"previous_contacts": 1,
+	"notes": "Prior invalid wish attempt at age 19.",
+	"opening": "Hey! You were right. It worked this time.",
+	"questions": [
+	  {
+		"question": "How old are you now?",
+		"answer": "Twenty-five. Birthday was yesterday."
+	  },
+	  {
+		"question": "How long has it been since your previous call?",
+		"answer": "Six years."
+	  },
+	  {
+		"question": "What did you wish for?",
+		"answer": "Same thing. Black Lamborghini."
+	  },
+	  {
+		"question": "Did the wish work?",
+		"answer": "It's sitting outside. I just called to say thanks."
+	  }
+	],
+	"after_questions": "Anyway, thanks! I've gotta go figure out insurance.",
+	"correct_resolution": "EXPLAIN / NO ACTION",
+	"rules": [
+	  "Wishes Are Restricted Before Age 25.",
+      "A Wish Must Be Fulfilled."
+	],
+	"success": "Wish valid and fulfilled. CASE CLOSED."
+  }
+]
